@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tp crud liste des étudiants</title>
+	<link rel="stylesheet" type="text/css" href="STYLE.CSS">
+	<script type="text/javascript" src="jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="INDEX.JS"></script>
+
+</head>
+
+<header>
+	<nav>
+		<ul id="myul">
+			<li class="active"> <a href="">accueil</a></li class="active">
+			<li class="active"> <a href="">a propos-de-nous</a> </li>
+			<li class="active"> <a href="">contact</a></li>
+			
+		</ul>
+	</nav>
+</header>
+
+<body>
+	<fieldset>
+		
+		<h2>inscription nouvel étudiant</h2>
+ 
+<div>  
+   <label>Prénom</label>	
+     <input type="text" name="prenom" placeholder="prenom" id="prenom">
+       <label>Nom</label>	
+         <input type="text" name="Nom" placeholder="Nom" id="nom">
+</div>
+
+<div>
+   <label>E-mail</label>	
+     <input type="E-mail" name="mail"placeholder= "asdc@trrdd.com"id="mail">
+</div>
+
+<input type="button" value= ajouter id="button">
+
+</fieldset>
+	
+	
+       <div><h2>Liste des étudiants</h2></div>
+<table id="my_array">
+		
+		<th>Id</th>
+		  <th>Firstname</th>
+		    <th>Familyname</th>
+		      <th>E-mail</th>
+		        <th>supp</th>
+                  <th>modif</th>
+	</tr>
+
+ <tr> 
+      <td class="Id">1</td>
+	      <td>sonia</td>
+		     <td>sarni</td>
+            <td>sonia.DD@JJFJ.FR</td>
+        <td><button class="supp"><img src="">supprimer</button></td>
+      <td><button class="modif"><img src="">modifier</button></td>
+</tr>
+
+<tr>
+    <td class="Id">2</td>
+       <td>sarah</td>
+           <td>missaoui</td>
+             <td>hbih_hhh@gshdh.FR</td>
+        <td><button class="supp"><img src="">supprimer</button></td>
+     <td><button class="modif"><img src="">modifier</button></td>
+</tr>
+
+
+<tr>
+    <td class="Id">3</td>
+	    <td>louisz</td>
+		   <td>lucas</td>
+		    <td>futgutg@igyi.com</td>
+		  <td><button class="supp"><img src="">supprimer</button>
+	  <td><button class="modif"><img src="">modifier</button>
+</tr>
+        
+<tr>
+         <td class="Id">4</td>
+           <td>djoudrez</td>
+             <td>amazouz</td>
+            <td>uugvuyg.ffv@gvuguy.FR</td>
+        <td><button class="supp"><img src="">supprimer</button>
+     <td><button class="modif"><img src="">modifier</button></td>
+</tr>
+
+
+<div  id="ajout"></div>
+	   
+
+
+
+
+</table>
+
+
+	
+
+</body>
+</html>
